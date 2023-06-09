@@ -1,0 +1,23 @@
+{
+  "name": "@varlet/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/node/index.js",
+  "module": "./lib/node/index.js",
+  "bin": {
+    "varlet-cli": "./lib/node/bin.js"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "commander": "^10.0.1"
+  }
+}
